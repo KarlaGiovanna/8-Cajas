@@ -1,0 +1,39 @@
+/* Inserta tu CSS aqui */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+}
+
+body {
+	margin: 10px;
+}
+
+.caja { background-color: gray; 
+		height: 100px;
+		width: 100px;
+		border: 1px solid;
+}
+
+.container {
+		margin: 10px 0px;
+		border: 1px solid;
+		width: 350px;
+		text-align: center;
+		padding: 2px ; 
+		background-color: gray;
+
+}
+
+.container .caja {
+		display: inline-block;
+		margin: 3px;
+}
+
+.container .caja:Last-child {
+		margin-right: 0px;
+}
+
+.inline-block {
+		display: inline-block;
+}
